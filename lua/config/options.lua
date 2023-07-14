@@ -3,3 +3,7 @@
 -- Add any additional options here
 
 vim.opt.mouse = nil
+
+vim.opt.foldlevelstart = 99
+vim.opt.foldmethod = 'expr'
+vim.opt.foldexpr = 'nvim_treesitter#foldexpr()'
