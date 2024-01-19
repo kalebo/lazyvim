@@ -5,5 +5,6 @@
 vim.opt.mouse = nil
 
 vim.opt.foldlevelstart = 99
-vim.opt.foldmethod = 'expr'
-vim.opt.foldexpr = 'nvim_treesitter#foldexpr()'
+vim.opt.foldmethod = "expr"
+vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
+vim.g.autoformat = false -- don't auto format on save
